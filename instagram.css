@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.411);
+    position: relative;
+}
+
+
+#box{
+    width: 400px;
+    min-height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: scroll;
+}
+
+#box svg{
+    width:30% ;
+    /* background-color: red; */
+    font-family: "Plain Light";
+    font-weight: bold;
+
+    /* padding: 5px 10px; */
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 7px ;
+}
+
+#nav-bar{
+    display: flex;
+    gap: 20px;
+}
+
+#nav-bar i{
+    font-size: 25px;
+}
+
+
+
+#line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+#short-line{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(122, 246, 122);
+    border-radius: 10px;
+    /* transition: all ease 1s; */
+}
+
+
+#fullscreen{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    padding-top: 10px;
+}
+
+#box1{
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.169);
+    padding: 20px 7px;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+#box1::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+.gola{
+    width: 80px;
+    height: 80px;
+    /* background-color: red; */
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.gola img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:top;
+}
+
+
+
+#circle{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 10px; */
+    padding: 10px;
+    /* background-color: red; */
+}
+
+
+#short-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    overflow: hidden;
+}
+
+
+
+#short-circle img{
+    width: 100%;
+    height: 100%;
+}
+
+#circle h1{
+    margin-right: 12vw;
+}
+
+.x1lliihq{
+    font-size: 100px;
+}
+
+#box>img{
+    width: 100%;
+    height: 100%;
+}
+
